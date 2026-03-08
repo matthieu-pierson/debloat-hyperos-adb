@@ -114,6 +114,17 @@ If you use the aggressive debloat list, some features might break. Here are some
     adb shell pm install-existing --user 0 com.xiaomi.bluetooth
     ```
 
+*   **To re-enable OTA Updates:**
+    ```shell
+    adb shell pm install-existing --user 0 com.xiaomi.xmsf
+    adb shell pm install-existing --user 0 com.xiaomi.xmsfkeeper
+    adb shell pm install-existing --user 0 com.miui.cloudservice
+    adb shell pm install-existing --user 0 com.miui.cloudservice.sysbase
+    adb shell pm install-existing --user 0 com.xiaomi.micloud.sdk
+    adb shell pm install-existing --user 0 com.miui.daemon
+    adb shell pm install-existing --user 0 com.xiaomi.simactivate.service
+    ```
+    Then reboot and change region in Settings > Additional settings > Region.
 ---
 
 ## Contributing
