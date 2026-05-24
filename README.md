@@ -97,6 +97,8 @@ adb shell pm install-existing --user 0 com.miui.calculator
 If you use the aggressive debloat list, some features might break. Here are some common fixes to restore essential functionalities by running these commands from your computer's terminal.
 
 *   **To re-enable Wallpapers:**
+
+    HyperOS's wallpaper-setting intent is tightly coupled to `com.miui.miwallpaper`. Removing it causes a black background and breaks "Set as wallpaper" from Gallery and third-party apps like Google Wallpapers. A third-party launcher like Nova Launcher can set a homescreen wallpaper independently, but the lockscreen will remain black — `com.miui.miwallpaper` is required for lockscreen wallpaper. Reinstalling is the only complete fix.
     ```shell
     adb shell pm install-existing --user 0 com.android.wallpaper.livepicker
     adb shell pm install-existing --user 0 com.android.wallpapercropper
