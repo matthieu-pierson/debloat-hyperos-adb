@@ -8,7 +8,6 @@ pm uninstall -k --user 0 com.amazon.mp3
 pm uninstall -k --user 0 com.amazon.mshop.android
 pm uninstall -k --user 0 com.amazon.mshop.android.shopping
 pm uninstall -k --user 0 com.amazon.venezia
-pm uninstall -k --user 0 com.android.deskclock
 pm uninstall -k --user 0 com.android.providers.downloads.ui
 pm uninstall -k --user 0 com.audible.application
 pm uninstall -k --user 0 com.bitdefender.security
@@ -57,13 +56,9 @@ pm uninstall -k --user 0 com.microsoft.office.outlook
 pm uninstall -k --user 0 com.microsoft.office.powerpoint
 pm uninstall -k --user 0 com.microsoft.office.word
 pm uninstall -k --user 0 com.microsoft.skydrive
-pm uninstall -k --user 0 com.miui.backup
-pm uninstall -k --user 0 com.miui.cleaner
 pm uninstall -k --user 0 com.miui.compass
 pm uninstall -k --user 0 com.miui.extraphoto
 pm uninstall -k --user 0 com.miui.misightservice
-pm uninstall -k --user 0 com.miui.miwallpaper
-pm uninstall -k --user 0 com.miui.miwallpaper.overlay.*
 pm uninstall -k --user 0 com.miui.notes
 pm uninstall -k --user 0 com.miui.notification
 pm uninstall -k --user 0 com.miui.weather2
@@ -89,7 +84,6 @@ pm uninstall -k --user 0 com.tripledot.solitaire
 pm uninstall -k --user 0 com.vitastudio.mahjong
 pm uninstall -k --user 0 com.vlingo.midas
 pm uninstall -k --user 0 com.xiaomi.discover
-pm uninstall -k --user 0 com.xiaomi.finddevice
 pm uninstall -k --user 0 com.xiaomi.midrop
 pm uninstall -k --user 0 com.xiaomi.ugd
 pm uninstall -k --user 0 com.zhiliaoapp.musically
