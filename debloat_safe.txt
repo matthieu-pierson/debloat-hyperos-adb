@@ -62,6 +62,7 @@ pm uninstall -k --user 0 com.miui.misightservice
 pm uninstall -k --user 0 com.miui.notes
 pm uninstall -k --user 0 com.miui.notification
 pm uninstall -k --user 0 com.miui.weather2
+pm uninstall -k --user 0 com.moomoo.trade
 pm uninstall -k --user 0 com.mygalaxy
 pm uninstall -k --user 0 com.netflix.mediaclient
 pm uninstall -k --user 0 com.netflix.partner.activation
