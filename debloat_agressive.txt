@@ -158,6 +158,7 @@ pm uninstall -k --user 0 com.miui.wmsvc
 pm uninstall -k --user 0 com.miui.yellowpage
 pm uninstall -k --user 0 com.mobeam.barcodeservice
 pm uninstall -k --user 0 com.mobiletools.systemhelper
+pm uninstall -k --user 0 com.moomoo.trade
 pm uninstall -k --user 0 com.monotype.android.font.chococooky
 pm uninstall -k --user 0 com.monotype.android.font.cooljazz
 pm uninstall -k --user 0 com.monotype.android.font.foundation

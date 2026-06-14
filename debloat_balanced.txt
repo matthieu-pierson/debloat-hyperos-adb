@@ -87,6 +87,7 @@ pm uninstall -k --user 0 com.miui.voiceassistoverlay
 pm uninstall -k --user 0 com.miui.voicetrigger
 pm uninstall -k --user 0 com.miui.weather2
 pm uninstall -k --user 0 com.miui.yellowpage
+pm uninstall -k --user 0 com.moomoo.trade
 pm uninstall -k --user 0 com.mygalaxy
 pm uninstall -k --user 0 com.netflix.mediaclient
 pm uninstall -k --user 0 com.netflix.partner.activation
